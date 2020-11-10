@@ -145,9 +145,10 @@ img {
 
 
 .story-p {
-    font-size: 1.01rem;
+    font-size: 1.1rem;
     line-height: 1.32rem;
     text-align: justify;
+    margin: auto;
 }
 
 
