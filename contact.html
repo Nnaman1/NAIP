@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>NAIP | Contact</title>
+</head>
+
+<body id="home">
+  <header class="hero blog">
+    <div id="navbar" class="navbar top">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fab fa-envira"></i>NA</span>iP
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.htm#story">About</a></li>
+          <li><a href="index.html#Portfolio">Portfolio</a></li>
+          <li><a href="founders.html">Founders</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <h1>Contact Us</h1>
+    </div>
+  </header>
+  <!-- Contact -->
+  <section class="contact flex-columns">
+
+    <div class="column">
+      <div class="column-2 bg-light">
+        <form action="" class="callback-form">
+          <div class="form-control">
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Enter name" />
+          </div>
+          <div class="form-control">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Enter email" />
+          </div>
+          <div class="form-control">
+            <label for="phone"></label>
+            <input type="text" name="phone" id="phone" placeholder="Enter phone" />
+          </div>
+          <input type="submit" value="Send" id="submit" class="btn" />
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2020 - NAIP LLC</p>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    let scrolled = false;
+
+    window.onscroll = function () {
+      if (window.pageYOffset > 100) {
+        navbar.classList.remove('top');
+        if (!scrolled) {
+          navbar.style.transform = 'translateY(-70px)';
+        }
+        setTimeout(function () {
+          navbar.style.transform = 'translateY(0)';
+          scrolled = true;
+        }, 200);
+      } else {
+        navbar.classList.add('top');
+        scrolled = false;
+      }
+    };
+  </script>
+</body>
+
+</html>
