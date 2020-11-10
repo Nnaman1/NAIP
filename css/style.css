@@ -16,7 +16,7 @@ body {
 ul {
     list-style: none;
 }
-.mission-pt {
+.mission-pt li{
     list-style: disc;
     margin-left: 2rem;
 }
@@ -144,6 +144,12 @@ img {
 }
 
 
+.story-p {
+    font-size: 1.01rem;
+    line-height: 1.32rem;
+    text-align: justify;
+}
+
 
 
 
@@ -247,6 +253,7 @@ img {
     }
 
     .team img {
-        width: 60%;
+        width: 30%;
+        height: 30%;
     }
 }
