@@ -147,12 +147,18 @@ img {
 .story-p {
     font-size: 1.1rem;
     line-height: 1.6rem;
-    text-align: justify;
-    margin: auto;
+    text-align: center;
+    margin: 0 3.125rem;
 }
 
+.founder-head {
+    font-size: 3.125rem;
+}
+.contact-head {
+    font-size: 3.125rem;
+    text-align: center;
 
-
+}
 
 /* Callback form */
 .callback-form {
@@ -254,7 +260,7 @@ img {
     }
 
     .team img {
-        width: 30%;
-        height: 30%;
+        width: 50%;
+        
     }
 }

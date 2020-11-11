@@ -137,6 +137,9 @@
     font-size: 40px;
     margin: 20px 0;
 }
+.section-header .we-play {
+    margin-bottom: 0;
+}
 
 .section-padding {
     padding: 20px 20px 40px;
