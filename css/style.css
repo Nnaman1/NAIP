@@ -16,10 +16,7 @@ body {
 ul {
     list-style: none;
 }
-.mission-pt li{
-    list-style: disc;
-    margin-left: 2rem;
-}
+
 
 a {
     color: #333;
@@ -148,9 +145,12 @@ img {
     font-size: 1.1rem;
     line-height: 1.6rem;
     word-spacing: normal;
-    
-    margin: 0 1.4375rem  ;
+    margin: 0 3.2rem  ;
 }
+.aboutUs-p p {
+    word-spacing: normal;
+}
+
 
 .founder-head {
     font-size: 3.125rem;
@@ -239,7 +239,7 @@ img {
 }
 
 /* Mobile */
-@media(max-width: 768px) {
+@media(max-width: 765px) {
     .navbar {
         flex-direction: column;
         height: 120px;
@@ -263,5 +263,12 @@ img {
     .team img {
         width: 50%;
         
+    }
+
+.story-p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    word-spacing: normal;
+    margin: 0 1.4375rem  ;
     }
 }
