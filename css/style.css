@@ -270,4 +270,16 @@ img {
     word-spacing: normal;
     margin: 0 1.4375rem  ;
     }
+    .navbar .logo {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .hero .content h1 {
+        font-size: 2.625rem;
+    }
+    .hero .content p {
+        font-size: 1.125rem  ;
+        max-width: 37.5rem;
+        margin: 1.25rem 0 1.875rem;
+    }
 }
