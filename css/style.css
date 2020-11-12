@@ -140,6 +140,7 @@ img {
 }
 
 
+
 .story-p {
     font-size: 1.1rem;
     line-height: 1.6rem;
@@ -287,6 +288,12 @@ img {
         font-size: 1.125rem  ;
         max-width: 37.5rem;
         margin: 1.25rem 0 1.875rem;
+    }
+    .section-header h2 {
+        font-size: 40px;
+        margin: 20px 0;
+        margin-top: 80px;
+    
     }
 }
 @media(max-width: 360px) {
