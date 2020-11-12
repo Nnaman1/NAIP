@@ -5,15 +5,16 @@
     padding: 0;
     margin: 0;
 }
-html {
-    scroll-behavior: smooth;
-  }
+
 
 body {
     font-family: 'Open Sans', sans-serif;
     background: #fff;
     color: #333;
     line-height: 1.6;
+}
+html {
+	scroll-behavior: smooth;
 }
 
 ul {
@@ -249,9 +250,7 @@ img {
 
 /* Mobile */
 @media(max-width: 765px) {
-    html {
-        scroll-behavior: smooth;
-      }
+ 
     .navbar {
         flex-direction: column;
         height: 120px;
