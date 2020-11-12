@@ -121,9 +121,9 @@ img {
     z-index: 10;
 }
 
-.hero.blog {
+.hero.founders {
     background: url('../images/home/hero.jpg') no-repeat center center/cover;
-    height: 30vh;
+    height: 20vh;
 }
 
 /* Icons */
