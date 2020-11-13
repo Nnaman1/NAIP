@@ -145,20 +145,7 @@
 .section-padding {
     padding: 1.25rem ;
     padding-bottom: 0.625rem;
-    
 }
-.section1-padding {
-    padding: 1.25rem ;
-    padding-bottom: 0.625rem;
-   
-    margin: 0 140px;
-    padding-left: 80px;
-    padding-right: 80px;
-    font-size: 1.1rem;
-    word-spacing: normal;
-}
-
-
 
 /* Flex grid */
 .flex-grid .row {
