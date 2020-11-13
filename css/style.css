@@ -18,7 +18,11 @@ html {
 }
 
 ul {
-    list-style: none;
+    list-style: square;
+
+}
+ul li {
+    margin-left: 40px;
 }
 .inv-port li{
     font-size: 1.1rem;
