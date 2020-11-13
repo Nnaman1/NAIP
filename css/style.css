@@ -23,7 +23,6 @@ ul {
 .inv-port li{
     font-size: 1.1rem;
     line-height: 1.6rem;
-    text-align: justify;
 
 
 }
@@ -158,7 +157,6 @@ img {
     line-height: 1.6rem;
     word-spacing: normal;
     margin: 0 65px  ;
-    text-align: justify;
     
 }
 .aboutUs-p p {
@@ -265,7 +263,7 @@ img {
 }
 
 /* Mobile */
-@media(max-width: 765px) {
+@media(max-width: 770px) {
  
     .navbar {
         flex-direction: column;
