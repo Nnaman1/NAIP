@@ -143,6 +143,12 @@ img {
 }
 
 /* Icons */
+ .flex-items .track-icon {
+    padding-left: 4.375rem;
+}
+.flex-items .geo-icon {
+    padding-left: 2.5rem;
+}
 .icons {
   
     padding: 15px 30px;
