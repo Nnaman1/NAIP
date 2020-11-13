@@ -144,7 +144,7 @@ img {
 
 /* Icons */
  .flex-items .track-icon {
-    padding-left: 4.375rem;
+    padding-left: 3.4375rem;
 }
 .flex-items .geo-icon {
     padding-left: 2.5rem;
@@ -328,6 +328,12 @@ img {
         font-size: 40px;
         margin: 20px 0;
     
+    }
+    .flex-items .track-icon {
+        padding-left: 1.25rem;
+    }
+    .flex-items .geo-icon {
+        padding-left: 1.25rem;
     }
 }
 @media(max-width: 360px) {
