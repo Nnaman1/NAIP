@@ -336,6 +336,7 @@ img {
     .flex-items .geo-icon {
         padding-left: 1.25rem;
     }
+    
 }
 @media(max-width: 360px) {
     .hero .content h1 {
