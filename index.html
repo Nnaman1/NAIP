@@ -2,326 +2,363 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/lightbox.min.css" />
-  <link rel="stylesheet" href="css/utilities.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <title>NAIP | Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>NAIP | Home</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Style.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Plugins.css -->
+	<link rel="stylesheet" href="css/plugins.css">
+	<!-- Google Fonts https://fonts.google.com/ -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<!-- jQuery https://code.jquery.com/ -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 </head>
 
-<body id="home">
-  <header class="hero">
-    <div id="navbar" class="navbar top">
-      <h1 class="logo">
-        <span class="text-primary"><i class="fab fa-envira"></i>NA</span>IP
-      </h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="founders.html">Founders</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+<body data-spy="scroll" data-target="#navbarResponsive">
 
-    <div class="content">
-      <h1> Building Generational Wealth</h1>
-      <h1>One Step at a Time.</h1>
-      <p>We Are Nigeran American Investment Partners </p>
-      <a href="#story" class="btn"><i class="fas fa-chevron-right"></i> Learn More</a>
-      <p id="story"> </p>
-    </div>
-  </header>
-  <!-- NAIP Story -->
-  <section class="cases flex-grid section-padding">
-    <header id="stryh2" class="section-header">
-      <h2>Our Story</h2>
-    </header>
+	<div id="home">
 
-    <div class="story">
-      <div>
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<div class="container-fluid">
+				<a href="#home" class="navbar-brand">
+					<h1 class="logo">
+						<span class="naip-text">NA</span>IP
+					</h1>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+				</button>
 
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="#home" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#about" class="nav-link">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="#portfolio" class="nav-link">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a href="Founders.html" class="nav-link">Founders</a>
+						</li>
+						<li class="nav-item">
+							<a href="Contact.html" class="nav-link">Contact</a>
+						</li>
+					</ul>
+				</div>
 
-      </div>
-      <p class="story-p">
-        We are friends. During a virtual happy hour at the onset of the COVID pandemic, we shared our frustrations with
-        the crisis and the impending economic recession. We were worried about how much we had lost in the stock market
-        and in other investment portfolios.
+			</div>
+		</nav>
 
-      </p>
-      <br>
-      <p class="story-p">Realizing the need to make some changes in our respective financial strategies, we set out on a
-        mission to pull our resources together and seek out investment opportunities that we may not typically have
-        access to, individually.
-      </p>
-      <br>
-      <p class="story-p">So, that’s how NAIP was formed. As immigrants and minorities, we are determined to secure the
-        future of the next generation by creating, growing and sustaining a platform to access private market investment
-        opportunities.
-      </p>
-      <br>
-      <p class="story-p">Our funds are privately sourced and funded by our members. Our background spans more than 100
-        years of combined experience across multiple industries, sectors, disciplines including but not limited to
-        medicine/care delivery, legal, corporate and business strategy, technology enablement, financial operations,
-        complex program management and risk management.
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner"></div>
+			</div>
+		</div>
 
-      </p>
-      <br>
+		<div class="caption text-center text-light text-uppercase">
 
-      <p class="story-p">We are community focused but not a charity organization. We support up and coming Nigerian
-        entrepreneurs and African founders in the Diaspora. We mentor, advise and guide because we understand that
-        sometimes our collective experience is more valuable than our money.
-      </p>
-      <br>
-      <p id="about" class="story-p">We are Nigerian American Investment Partners.
+			<h3 class="font-weight-bold os-animation" data-animation="fadeInUp" data-delay=".6s">Building Generational
+				Wealth <br> One Step at a Time.</h3>
+			<h4 class="os-animation" data-animation="fadeInUp" data-delay=".8s">We Are Nigeran American Investment
+				Partners</h4><br>
+			<a href="#story" class="btn btn-success" btn-lg rounded-0 os-animation" data-animation="fadeInUp"
+				data-delay="1s">Learn More</a>
+
+		</div>
 
 
-      </p>
-
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="solutions flex-columns">
-    <div class="row">
-      <div class="column">
-        <div class="column-1">
-          <img src="images/home/about.jpg" alt="" />
-        </div>
-      </div>
-      <div class="column">
-        <div class="column-2 bg-primary">
-          <h2> About Us </h2>
-          <br>
-          <div class="aboutUs-p">
-            <h3> Our Vision</h3>
-
-            <p>
-              The world has overlooked a great deal of innovative companies by not investing more in Nigerian
-              entrepreneurs. Similarly, investment companies have overlooked the financial prowess of Nigerians in the
-              diaspora.
-
-            </p>
-
-            <p>
-
-              NAIP is addressing the disparity rather than waiting for Venture Capital firms to do so.
-            </p>
+	</div>
 
 
+	<div id="story" class="offset">
 
-            <p>
+		<div class="row py-4 os-animation justify-content-center" data-animation="fadeInUp">
+			<div class="col-11 col-md-10 col-lg-9">
+				<h1 class="text-center mb-4">Our Story</h1>
 
-              Our vision is to be the pre-eminent group of professionals focused on growing the wealth and influence
-              of Nigerians in the diaspora.
-            </p>
+				<p class="lead">We are friends. During a virtual happy hour at the onset of the COVID pandemic, we
+					shared our frustrations with the crisis and the impending economic recession. We were worried about
+					how much we had lost in the stock market and in other investment portfolios.
+				</p>
+				<p class="lead">Realizing the need to make some changes in our respective financial strategies, we set
+					out on a mission to pull our resources together and seek out investment opportunities that we may
+					not typically have access to, individually.
+				</p>
+				<p class="lead">So, that’s how NAIP was formed. As immigrants and minorities, we are determined to
+					secure the future of the next generation by creating, growing and sustaining a platform to access
+					private market investment opportunities.
+				</p>
+				<p class="lead">Our funds are privately sourced and funded by our members. Our background spans more
+					than 100 years of combined experience across multiple industries, sectors, disciplines including but
+					not limited to medicine/care delivery, legal, corporate and business strategy, technology
+					enablement, financial operations, complex program management and risk management.
+				</p>
+				<p class="lead">We are community focused but not a charity organization. We support up and coming
+					Nigerian entrepreneurs and African founders in the Diaspora. We mentor, advise and guide because we
+					understand that sometimes our collective experience is more valuable than our money.
+				</p>
+				<p class="lead">We are Nigerian American Investment Partners.</p>
+			</div>
+		</div>
+		<div id="about" class="fixed">
 
+			<div class="row justify-content-center dark text-light ">
 
+				<div class="col-12 os-animation" data-animation="fadeInUp">
+					<h3 class="heading">About Us</h3>
+					<div class="heading-underline" style="margin-bottom: 0;"></div>
+				</div>
 
+				<div class="col-xl-12 os-animation" data-animation="fadeInLeft">
+					<div class="container ">
+						<h3> Our Vision</h3>
 
+						<p class="lead">
+							The world has overlooked a great deal of innovative companies by not investing more in
+							Nigerian
+							entrepreneurs. Similarly, investment companies have overlooked the financial prowess of
+							Nigerians in the diaspora.</p>
+						<p class="lead">Our Vision
+							NAIP is addressing the disparity rather than waiting for Venture Capital firms to do so.
 
+						</p>
+						<p class="lead">Our vision is to be the pre-eminent group of professionals focused on growing
+							the wealth and influence of Nigerians in the diaspora.
 
-            <br>
-            <h3> Our Mission </h3>
-            <p>
+						</p>
 
-              Leverage our collective relationships, sphere of influence and our financial and economic capital in
-              order
-              to achieve the NAIP vision.
-            </p>
+					</div>
 
+				</div>
 
+				<div class="col os-animation" data-animation="fadeInRight">
+					<div class="container">
 
-            <p>
-
-              Empower Nigerian founders and entrepreneurs through investment, strategic support and advisory.
-            </p>
-
-            <p>
-
-              Create, grow and sustain a platform to access private market investment opportunities for our members.
-            </p>
-
-
-
-
-
-
-
-
-
-
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <main>
-    <!-- Where we play -->
-    <section class="cases flex-grid section-padding">
-      <header class="section-header">
-        <h2>Where We Play </h2>
-      </header>
-
-    </section>
-    <section class="icons bg-light">
-
-      <div class="flex-items">
-        <div>
-          <i class="fas fa-piggy-bank fa-3x"></i>
-          <div>
-            <h3>Investment </h3>
-            <p>
-              We invest in seeds & series A investments
-            </p>
-          </div>
-        </div>
-        <div>
-          <i class="fas fa-book-reader fa-3x"></i>
-          <div>
-            <h3>Innovation </h3>
-            <p>
-              We look for innovative & capital-efficient companies
-            </p>
-          </div>
-        </div>
-        <div>
-          <i class="fas fa-code-branch fa-3x"></i>
-          <div>
-            <h3>Industry</h3>
-            <p>
-              We are industry & sector agnostic
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="flex-items">
-        <div class="geo-icon">
-          <i id="geo-margin" class="fas fa-map-signs fa-3x"></i>
-          <div>
-            <h3>Geography</h3>
-            <p>
-              We are open to all geographies, but we have preferences
-            </p>
-          </div>
-        </div>
-        <div class="track-icon">
-          <i class="fas fa-clipboard fa-3x"></i>
-          <div>
-            <h3>Track Record </h3>
-            <p>
-              We like companies with proven leadership & success record
-            </p>
-          </div>
-        </div>
-        <div class="icon-div6">
-          <i class="fas fa-dollar-sign fa-3x"></i>
-          <div>
-            <h3>Monetization</h3>
-            <p id="Portfolio">
-              We explore opportunities with clear path to monetization
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
+						<h3>Mission</h3>
 
 
-    <!-- Portfolio -->
-    <section class="blog flex-columns flex-reverse">
-      <div class="row">
-        <div class="column">
-          <div class="column-1">
-            <img src="images/home/port.jpg" alt="" />
-          </div>
-        </div>
-        <div class="column">
-          <div class="column-2 bg-secondary">
+						<p class="lead">Leverage our collective relationships, sphere of influence and our financial and
+							economic capital in order to achieve the NAIP vision.
+						</p>
+						<p class="lead">Empower Nigerian founders and entrepreneurs through investment, strategic
+							support and advisory.
+						</p>
+						<p class="lead">Create, grow and sustain a platform to access private market investment
+							opportunities for our members.
+						</p>
+					</div>
+				</div>
 
-            <h2 class="inv-port"> Investment Portfolio Profile </h2>
-            <br>
+			</div>
 
-            <ul class="body-li">
-              <li> A Dallas-based biotech company that develops pH-activated compounds that digitalize and exploit the
-                variability of pH in disease.</li><br>
-              <li>A real estate investment company with a focused strategy of building a portfolio of curated,
-                relevant, and significant assets through the acquisition and development of office and industrial
-                properties.
-              </li><br>
-              <li>A state-of-the-art fertility clinic practice and laboratory in North Carolina.
-              </li><br>
-              <li>Africa's first biobank that collects clinical data and generate genetic data on the African population
-                which may be use in global genomics research to produce novel insights in the discovery of drugs.
-              </li>
-            </ul>
+			<div class="fixed-wrap">
+				<div class="fixed-dark"></div>
+			</div>
+		</div>
 
-          </div>
-        </div>
-      </div>
-    </section>
+		<div class="jumbotron m-0 py-5">
+
+			<div class="col-12 os-animation" data-animation="fadeInUp">
+				<h3 class="heading">Where We Play</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="container">
+				<div class="row text-center px-lg-4 px-xl-5">
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInLeft">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-piggy-bank fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3>Investment</h3>
+							<p class="lead"> We invest in seeds & series A investments
+							</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInUp">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-book-reader fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
+							</span>
+							<h3>Innovation</h3>
+							<p class="lead"> We look for innovative & capital-efficient companies
+							</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInRight">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-code-branch fa-stack-1x fa-inverse"
+									data-fa-transform="shrink-3.5 right-1"></i>
+							</span>
+							<h3>Industry</h3>
+							<p class="lead"> We are industry & sector agnostic
+							</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInLeft">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-map-signs fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3>Geography</h3>
+							<p class="lead"> We are open to all geographies, but we have preferences
+							</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInUp">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-clipboard fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
+							</span>
+							<h3>Track Record</h3>
+							<p class="lead"> We like companies with proven leadership & success record
+							</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="fadeInRight">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-dollar-sign fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3>Monetization</h3>
+							<p class="lead"> We explore opportunities with clear path to monetization
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<div id="portfolio" class="fixed">
+
+		<div class="row justify-content-center dark text-light ">
+
+			<div class="col-12 os-animation" data-animation="fadeInUp">
+				<h3 class="heading">Investment Portfolio
+				</h3>
+				<div class="heading-underline" style="margin-bottom: 0;"></div>
+			</div>
+
+			<div class="col-xl-12 os-animation" data-animation="fadeInLeft">
+				<div class="container ">
+					<ul>
+						<li>
+							<p class="lead">
+								A Dallas-based biotech company that develops pH-activated compounds that digitalize and
+								exploit the variability of pH in disease.
+							</p>
+						</li>
+						<li>
+							<p class="lead">
+								A real estate investment company with a focused strategy of building a portfolio of
+								curated, relevant, and significant assets through the acquisition and development of
+								office and industrial properties.
+
+							</p>
+						</li>
+						<li>
+							<p class="lead">
+								A state-of-the-art fertility clinic practice and laboratory in North Carolina.
+
+							</p>
+						</li>
+						<li>
+							<p class="lead">
+								Africa's first biobank that collects clinical data and generate genetic data on the
+								African population which may be use in global genomics research to produce novel
+								insights in the discovery of drugs.
+
+							</p>
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="fixed-wrap">
+			<div class="fixed-dark2"></div>
+		</div>
+	</div>
 
 
 
 
-  </main>
+	<!-- Top Scroll -->
+	<a href="#home" class="top-scroll">
+		<i class="fa fa-angle-up"></i>
+	</a>
+	<!-- End of Top Scroll -->
 
-  <footer class="footer bg-dark">
-    <div class="social">
-      <a href="https://www.linkedin.com/company/naip-llc"><i class="fab fa-linkedin fa-2x"></i></a>
-      <a href="https://www.instagram.com/naip_llc/"><i class="fab fa-instagram-square fa-2x"></i>
-        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-    </div>
-    <p>Copyright &copy; 2020 - NAIP LLC</p>
-  </footer>
 
-  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
-    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous" defer></script>
-  <script src="js/lightbox.min.js" defer></script>
-  <script defer>
-    const navbar = document.getElementById('navbar');
-    let scrolled = false;
+	<!-- Script Source Files -->
 
-    window.onscroll = function () {
-      if (window.pageYOffset > 100) {
-        navbar.classList.remove('top');
-        if (!scrolled) {
-          navbar.style.transform = 'translateY(-70px)';
-        }
-        setTimeout(function () {
-          navbar.style.transform = 'translateY(0)';
-          scrolled = true;
-        }, 200);
-      } else {
-        navbar.classList.add('top');
-        scrolled = false;
-      }
-    };
+	<!-- Plugins.js -->
+	<script src="js/plugins.js"></script>
+	<!-- Waypoints https://cdnjs.com/libraries/waypoints
+		https://github.com/imakewebthings/waypoints -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
+		https://github.com/bfintal/Counter-Up2 -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
 
-    // Smooth Scrolling
-    $('#navbar a, .btn').on('click', function (e) {
-      if (this.hash !== '') {
-        e.preventDefault();
+	<!-- End of Script Source Files -->
 
-        const hash = this.hash;
-
-        $('html, body').animate(
-          {
-            scrollTop: $(hash).offset().top - 100,
-          },
-          800
-        );
-      }
-    });
-  </script>
 </body>
 
 </html>
