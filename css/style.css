@@ -458,7 +458,10 @@ a.top-scroll:hover {
       font-size: 2rem;
    }
    .fixed-dark {
-      background-image: url('../img/fixed/about.jpg')
+      background-image: url('../img/fixed/about.jpg');
+      height: 100%;
+      width: 100%;
+      background-size: cover;
    }
  
 
