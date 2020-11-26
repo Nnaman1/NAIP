@@ -250,7 +250,7 @@ h3.heading {
 /*============= PORTFOLIO SECTION =============*/
 
 .fixed-dark2 {
-   background-image: url('../img/fixed/port.jpg');
+   background-image: url('../img/fixed/about.jpg');
    position: fixed;
    height: 100%;
    width: 100%;
@@ -476,6 +476,10 @@ a.top-scroll:hover {
    }
    .caption h3 {
       font-size: 1.2rem;
+      padding-bottom: 1rem;
+   }
+   .caption h5 {
+      font-size: 0.813rem;
       padding-bottom: 1rem;
    }
    .caption .btn-lg {
