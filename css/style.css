@@ -370,63 +370,6 @@ a.top-scroll:hover {
       padding: .7rem 1.2rem;
       font-size: 1rem;
    }
-   .fixed {
-      position: relative;
-      width: 100%;
-   }
-   .fixed-wrap {
-      clip: rect(0, auto, auto, 0);
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
-      z-index: -9999;
-   }
-   .fixed-dark {
-      background-image: url('../img/fixed/about.jpg');
-      position: fixed;
-      height: 100%;
-      width: 100%;
-      background-size: cover;
-      background-position: center center;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      will-change: transform;
-      z-index: -1;
-      top: 0;
-      left: 0;
-      display: table;
-   }
-   
-   .dark {
-      background-color: rgba(0, 0, 0, .8);
-      padding: 7rem 0;
-      z-index: 1000;
-   }
-   
-   
-   .fixed-dark2 {
-      background-image: url('../img/fixed/port.jpg');
-      position: fixed;
-      height: 100%;
-      width: 100%;
-      background-size: cover;
-      background-position: center center;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      will-change: transform;
-      z-index: -1;
-      top: 0;
-      left: 0;
-      display: table;
-   }
-   
-   .dark2 {
-      background-color: rgba(0, 0, 0, .8);
-      padding: 7rem 0;
-      z-index: 1000;
-   }
 }
 
 /* Devices under 768px (md) */
@@ -445,6 +388,13 @@ a.top-scroll:hover {
    }
    #features h1 {
       font-size: 2rem;
+   }
+
+   .fixed-dark2 {
+      background-image: url('../img/fixed/port.jpg');
+      height: 100%;
+      width: 100%;
+      background-size: cover;
    }
 
    .form-group {
