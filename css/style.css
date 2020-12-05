@@ -201,11 +201,6 @@ h3.heading {
    margin: 0 auto 2rem;
 }
 
-h4.abt-us {
- 
-   text-decoration: underline #008751;
-}
-
 .feature span {
    color: #008751;
    margin-bottom: .6rem;
@@ -258,7 +253,7 @@ h4.abt-us {
 
 
 .fixed-dark2 {
-   background-image: url('../img/fixed/port.jpg ');
+   background-image: url('../img/fixed/about.jpg ');
    position: fixed;
    height: 100%;
    width: 100%;
