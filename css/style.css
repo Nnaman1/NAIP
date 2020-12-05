@@ -200,6 +200,12 @@ h3.heading {
    background-color: #008751;
    margin: 0 auto 2rem;
 }
+
+h4.abt-us {
+ 
+   text-decoration: underline #008751;
+}
+
 .feature span {
    color: #008751;
    margin-bottom: .6rem;
@@ -216,6 +222,7 @@ h3.heading {
 .fixed {
    position: relative;
    width: 100%;
+   display: table;
 }
 .fixed-wrap {
    clip: rect(0, auto, auto, 0);
@@ -226,15 +233,7 @@ h3.heading {
    left: 0;
    z-index: -9999;
 }
-.fixed-wrap2 {
-   clip: rect(0, auto, auto, 0);
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   top: 0;
-   left: 0;
-   z-index: -9999;
-}
+
 .fixed-dark {
    background-image: url('../img/fixed/about.jpg');
    position: fixed;
@@ -259,7 +258,7 @@ h3.heading {
 
 
 .fixed-dark2 {
-   background-image: url('../img/fixed/about.jpg');
+   background-image: url('../img/fixed/port.jpg ');
    position: fixed;
    height: 100%;
    width: 100%;
@@ -274,11 +273,6 @@ h3.heading {
    display: table;
 }
 
-.dark2 {
-   background-color: rgba(0, 0, 0, .8);
-   padding: 7rem 0;
-   z-index: 1000;
-}
 
 ul.social {
    list-style: none;
