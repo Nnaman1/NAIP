@@ -433,6 +433,12 @@ a.top-scroll:hover {
    .top-scroll {
       display: none!important;
    }
+   .founder-container {
+      width: 120px;
+      padding: 8px;
+      margin: 8px ;
+      
+    }
 }
 
 /* Devices under 576px (sm) */
