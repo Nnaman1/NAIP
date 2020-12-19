@@ -330,6 +330,44 @@ hr.socket {
 }
 
 
+.flexitems {
+   display: flex;
+   flex-direction: row;
+   justify-content:center ;
+   flex-wrap: wrap;
+ 
+ }
+ .icon {
+   text-align: center; 
+   width: 100%;
+   margin-top: 0;
+ }
+ .founder-container {
+   width: 150px;
+   padding: 8px;
+   margin: 8px ;
+   
+ }
+ 
+ .circle {
+   position: relative;
+   width: 100%;
+   height: 0;
+   padding: 100% 0 0;
+   overflow: hidden;
+ }
+ 
+ .circle img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+  
+ }
+ 
+
 
 /*============= TOP SCROLL =============*/
 
