@@ -343,9 +343,9 @@ hr.socket {
    margin-top: 0;
  }
  .founder-container {
-   width: 150px;
-   padding: 8px;
-   margin: 8px ;
+   width: 200px;
+   padding: 20px;
+   margin: 20px ;
    
  }
  
@@ -433,12 +433,7 @@ a.top-scroll:hover {
    .top-scroll {
       display: none!important;
    }
-   .founder-container {
-      width: 120px;
-      padding: 8px;
-      margin: 8px ;
-      
-    }
+   
 }
 
 /* Devices under 576px (sm) */
