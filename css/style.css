@@ -370,6 +370,7 @@ a.top-scroll:hover {
    .fixed-dark {
       background-image: url('../img/fixed/about.jpg');
       background-position:left center;
+      position: fixed;
    }
    
 }
