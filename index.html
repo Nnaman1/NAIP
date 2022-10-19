@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NAIP - Home</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+
+  </head>
+  <body data-offset="50">
+    <div class="nav">
+      <a href="index.html"><img src="NAIP_Logo.png" alt="" /></a>
+      <ul id="item">
+        <li><a href="#about">About </a></li>
+        <li><a href="#class">Portfolio</a></li>
+        <li><a href="#pitch">Pitch</a></li>
+        <li><a href="#contact">Team </a></li>
+        <li><a href="#footer"> Contact</a></li>
+      </ul>
+      <i id="bar" class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <div class="back" id="home">
+      <div class="overlay"></div>
+    </div>
+    <div class="mid">
+      <h2>
+        <br /><br />
+        Investing in a Diverse <br />
+        Ecosystem of Innovative Founders
+      </h2>
+      <br /><br />
+      <p>We Are Nigerian American Investment Partners</p>
+      <br />
+      <div class="btn">
+        <a class="border" href="#about">Learn More</a>
+      </div>
+    </div>
+    <div id="about" class="details" style="background-color: #fff">
+      <div class="one" data-aos="fade-up">
+        <h3 style="color: black">About NAIP</h3>
+        <p>
+          <strong>Background:</strong> We are a group of Nigerian Americans
+          leveraging our professional background and years of experience across
+          multiple industries to empower founders and entrepreneurs through
+          investments, advisory and support. ! <br /><br />
+          <strong>Vision:</strong> Providing access to knowledge and capital for
+          entrepreneurs seeking to nurture an idea and grow it to fruition.
+          <br /><br />
+          <strong>Philosophy:</strong> Build generational wealth by investing in
+          businesses that not only seek profits but also leave a positive impact
+          in their communities. <br /><br />
+         
+        </p>
+      </div>
+    </div>
+    <div id="pitch" class="details">
+      <div class="one" data-aos="fade-up">
+        <h3>Have A Pitch?</h3>
+        <p>
+          Thanks for your interest in Nigerian American Investment Partners!
+          We're excited to learn more about your company and what you're
+          building! <br /><br />
+          Please complete our investment form if you'd like to request funding
+          and we'll reach out as soon as possible.
+        </p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScKMShbQ0kIjm5h1OSo-_cgY9K03xbuY9T9nXfnePp-ouvvSA/viewform?vc=0&c=0&w=1&flr=0" target="_blank"
+          >NAIP investment form
+        </a>
+      </div>
+    </div>
+
+   
+    
+
+    <div class="footer" id="footer">
+      <p>Copyright © 2022 NAIP LLC. All rights reserved.</p>
+      <p>
+        <a
+          style="text-decoration: none; color: grey"
+          href="mailTo:info@naip.com"
+        >
+          <i class="fa fa-envelope-o" aria-hidden="true"></i> info@naip.com</a
+        ><br />
+        <a
+          style="text-decoration: none; color: grey"
+          href="https://www.linkedin.com/company/naip-llc/" target="_blank"
+        >
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </i> NAIP's Linkedin </a
+        >
+      </p>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+    </script>
+  </body>
+</html>
