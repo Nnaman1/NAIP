@@ -159,7 +159,7 @@ h5 {
 }
 
 .details .one {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -622,7 +622,7 @@ textarea:focus {
     padding: 6rem 7rem;
   }
   .details .one {
-    width: 50%;
+    width: 100%;
   }
 
   .details .one h3 {
@@ -644,23 +644,7 @@ textarea:focus {
     font-size: 0.9rem;
   }
 
-  .details .two {
-    padding-left: 3.5rem;
-  }
-
-  .details .two h3 {
-    font-size: 2rem;
-  }
-
-  .details .two h5 {
-    font-size: 1rem;
-  }
-
-  .details .two p {
-    font-size: 1rem;
-    margin-bottom: 0.6rem;
-  }
-  .trainer {
+    .trainer {
     padding: 6rem 7rem;
   }
 
@@ -841,21 +825,14 @@ textarea:focus {
     justify-content: center;
   }
   .details .one {
-    width: 70%;
+    width: 100%;
   }
 
   .details .one a {
     font-size: 1rem;
   }
 
-  .details .two {
-    padding-left: 0;
-    border-left: 0;
-    border-top: 1px solid #666262;
-    width: 70%;
-    margin-top: 1.7rem;
-    padding-top: 1.7rem;
-  }
+
 
   .trainer {
     padding: 5rem 2rem;
@@ -909,7 +886,7 @@ textarea:focus {
   }
 
   .contact .map {
-    width: 60%;
+    width: 80%;
     margin-top: 20px;
     margin: auto;
   }
@@ -942,9 +919,7 @@ textarea:focus {
   .details .one {
     width: 100%;
   }
-  .details .two {
-    width: 100%;
-  }
+
 
   .trainer {
     padding: 4rem 1rem;
@@ -998,5 +973,5 @@ textarea:focus {
     justify-content: flex-start;
   }
 
-  .footer;
+  
 }
