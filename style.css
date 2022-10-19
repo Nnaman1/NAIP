@@ -530,8 +530,8 @@ textarea:focus {
     padding: 1rem 4.5rem;
   }
 
-  .nav h2 {
-    font-size: 1.4rem;
+  .nav img {
+    font-size: 2rem;
   }
 
   #item li {
@@ -551,9 +551,9 @@ textarea:focus {
   .nav {
     padding: 1rem 3rem;
   }
-  .nav h2 {
-    font-size: 1.6rem;
-  }
+  .nav img {
+    height : 45%;
+    width : 50%;  }
 
   #item {
     display: flex;
