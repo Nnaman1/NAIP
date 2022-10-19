@@ -530,8 +530,8 @@ textarea:focus {
     padding: 1rem 4.5rem;
   }
 
-  .nav img {
-    font-size: 2rem;
+  .nav h2 {
+    font-size: 1.4rem;
   }
 
   #item li {
@@ -551,9 +551,9 @@ textarea:focus {
   .nav {
     padding: 1rem 3rem;
   }
-  .nav img {
-    height : 45%;
-    width : 50%;  }
+  .nav h2 {
+    font-size: 1.6rem;
+  }
 
   #item {
     display: flex;
@@ -597,12 +597,12 @@ textarea:focus {
   }
 
   .mid p {
-    font-size: 1.1rem;
+    font-size: 2rem;
     margin-bottom: 1.2rem;
   }
 
   .mid h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .mid .btn {
     margin-top: 1.5rem;
@@ -797,12 +797,12 @@ textarea:focus {
   }
 
   .mid p {
-    font-size: 1rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
 
   .mid h2 {
-    font-size: 2.1rem;
+    font-size: 3rem;
   }
   .mid .btn {
     margin-top: 1rem;
@@ -908,7 +908,7 @@ textarea:focus {
   }
 
   .mid h2 {
-    font-size: 1.8rem;
+    font-size: 3rem;
   }
 
   .details {
