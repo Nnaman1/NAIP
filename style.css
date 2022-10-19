@@ -825,21 +825,14 @@ textarea:focus {
     justify-content: center;
   }
   .details .one {
-    width: 70%;
+    width: 100%;
   }
 
   .details .one a {
     font-size: 1rem;
   }
 
-  .details .two {
-    padding-left: 0;
-    border-left: 0;
-    border-top: 1px solid #666262;
-    width: 70%;
-    margin-top: 1.7rem;
-    padding-top: 1.7rem;
-  }
+
 
   .trainer {
     padding: 5rem 2rem;
