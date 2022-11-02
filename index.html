@@ -1,149 +1,297 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>NAIP - Home</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAIP | Nigerian American Investment Partners</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
-
-
   </head>
-  <h1 style="color:black">
-    <br><br>
-    Our website is undergoing some maintenance. We'll be back soon.
-  
-  </h1>
-  
-  <!------    
-  <body data-offset="50">
-    <div class="nav">
-      <a href="index.html"><img src="NAIP_Logo.png" alt="" /></a>
-      <ul id="item">
-        <li><a href="#about">About </a></li>
-        <li><a href="#class">Portfolio</a></li>
-        <li><a href="#pitch">Pitch</a></li>
-        <li><a href="#contact">Team </a></li>
-        <li><a href="#footer"> Contact</a></li>
-      </ul>
-      <i id="bar" class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <div class="back" id="home">
-      <div class="overlay"></div>
-    </div>
-    <div class="mid">
-      <h2>
-        <br /><br />
-        Investing in a Diverse <br />
-        Ecosystem of Innovative Founders
-      </h2>
-      <br /><br />
-      <p>We Are Nigerian American Investment Partners</p>
-      <br />
-      <div class="btn">
-        <a class="border" href="#about">Learn More</a>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#aboutus">ABOUT</a></li>
+            <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+            <li><a href="#pitch">PITCH</a></li>
+            <li><a href="#team">TEAM</a></li>
+            <li><a href="#footer1">CONNECT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>
+          Investing in a Diverse <br />
+          Ecosystem of <br />
+          Innovative Founders
+        </h1>
+        <p>We Are Nigerian American Investment Partners</p>
+        <a href="#aboutus" class="hero-btn">About Us</a>
       </div>
-    </div>
-    <div id="about" class="details" style="background-color: #fff">
-      <div class="one" data-aos="fade-up">
-        <h3 style="color: black">About NAIP</h3>
-        <p>
-          <strong>Background:</strong> We are a group of Nigerian Americans
-          leveraging our professional background and years of experience across
-          multiple industries to empower founders and entrepreneurs through
-          investments, advisory and support. <br /><br />
-          <strong>Vision:</strong> Providing access to knowledge and capital for
-          entrepreneurs seeking to nurture an idea and grow it to fruition.
-          <br /><br />
-          <strong>Philosophy:</strong> Build generational wealth by investing in
-          businesses that not only seek profits but also leave a positive impact
-          in their communities. <br /><br />
-         
-        </p>
-      </div>
-    </div>
-    <div id="pitch" class="details">
-      <div class="one" data-aos="fade-up">
-        <h3>Have A Pitch?</h3>
-        <p>
-          Thanks for your interest in Nigerian American Investment Partners!
-          We're excited to learn more about your company and what you're
-          building! <br /><br />
-          Please complete our investment form if you'd like to request funding
-          and we'll reach out as soon as possible.
-        </p>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScKMShbQ0kIjm5h1OSo-_cgY9K03xbuY9T9nXfnePp-ouvvSA/viewform?vc=0&c=0&w=1&flr=0" target="_blank"
-          >NAIP investment form
-        </a>
-      </div>
+    </section>
+    <div style="background-color: #171819; color: white">
+      <section id="aboutus" class="about-us">
+        <div class="row">
+          <div class="about-col">
+            <h1>About NAIP</h1>
+            <p style="color: white">
+              Background: <br />
+              We are a group of Nigerian Americans leveraging our professional
+              background and years of experience across multiple industries to
+              empower founders and entrepreneurs through investments, advisory
+              and support. <br /><br />
+              Vision: <br />
+              Providing access to knowledge and capital for entrepreneurs
+              seeking to nurture an idea and grow it to fruition. <br /><br />
+              Philosophy: <br />
+              Build generational wealth by investing in businesses that not only
+              seek profits but also leave a positive impact in their
+              communities.
+            </p>
+          </div>
+          <div class="about-col">
+            <img src="images/bg1.jpg" />
+          </div>
+        </div>
+      </section>
     </div>
 
-   
-    
+    <!---------- course ----------->
 
-    <div class="footer" id="footer">
-      <p>Copyright © 2022 NAIP LLC. All rights reserved.</p>
-      <p>
-        <a
-          style="text-decoration: none; color: grey"
-          href="mailTo:info@naip.com"
-        >
-          <i class="fa fa-envelope-o fa-2x" aria-hidden="true">  |  </i> </a
-        ><span></span>
-        <a
-          style="text-decoration: none; color: grey"
-          href="https://www.linkedin.com/company/naip-llc/" target="_blank"
-        >
-        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-      </i>  </a
-        >
-      </p>
+    <section id="PORTFOLIO" class="course">
+      <h1>Portfolio</h1>
+      <div class="row">
+        <div class="course-col">
+          <h3>Healthcare</h3>
+          <p style="color: white">
+            Nanotechnology healthcare diagnostic imaging for cancer treatment
+            <br /><br /><br /><br />
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Technology</h3>
+          <p style="color: white">
+            Cloud based platform offering financial institutions a technology
+            kit to enhance user experiences <br /><br /><br /><br />
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Real-Estate</h3>
+          <p style="color: white">
+            Revitalization and renovation of commercial/residential properties
+            for rent / resale <br /><br /><br /><br />
+          </p>
+        </div>
+      </div>
+    </section>
+    <div style="background-color: #171819; color: white">
+      <section id="pitch" class="about-us">
+        <div class="row">
+          <div class="about-col">
+            <h1>Have A Pitch?</h1>
+            <p style="color: white">
+              Thanks for your interest in Nigerian American Investment Partners!
+              We're excited to learn more about your company and what you're
+              building! <br /><br />
+              Please complete our investment form if you'd like to request
+              funding and we'll reach out as soon as possible.
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScKMShbQ0kIjm5h1OSo-_cgY9K03xbuY9T9nXfnePp-ouvvSA/viewform?vc=0&c=0&w=1&flr=0"
+              class="hero-btn"
+            >
+              NAIP Investment Form
+            </a>
+          </div>
+          <div class="about-col">
+            <img src="images/about.jpg" />
+          </div>
+        </div>
+      </section>
     </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <section id="team" class="facility">
+      <h1>Investment Team</h1>
+      <div class="row">
+        <div class="facility-col">
+          <img src="images/img1.jpg" />
+          <h3>
+            Daniel <br />
+            Adeboyejo
+          </h3>
+          <p>View Bio</p>
+        </div>
+
+        <div class="facility-col">
+          <img src="images/img2.jpg" />
+          <h3>
+            Debo <br />
+            Adesina
+          </h3>
+          <p>View Bio</p>
+        </div>
+        <div class="facility-col">
+          <img src="images/img3.jpg" />
+          <h3>
+            Efosa <br />
+            Airuehia, MD
+          </h3>
+          <p>View Bio</p>
+        </div>
+        <div class="facility-col">
+          <img src="images/img4.jpg" />
+          <h3>
+            Folarin <br />
+            Dawodu
+          </h3>
+          <p>View Bio</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="facility-col">
+          <img src="images/img5.jpg" />
+          <h3>
+            Obinna <br />
+            Egonu
+          </h3>
+          <p>View Bio</p>
+        </div>
+
+        <div class="facility-col">
+          <img src="images/img6.jpg" />
+          <h3>
+            Ododo <br />
+            Enabulele
+          </h3>
+          <p>View Bio</p>
+        </div>
+        <div class="facility-col">
+          <img src="images/img16.jpg" />
+          <h3>
+            Khafid <br />
+            Gbadamosi
+          </h3>
+          <p>View Bio</p>
+        </div>
+        <div class="facility-col">
+          <img src="images/img7.jpg" />
+          <h3>
+            Kenny <br />
+            Iloabachie, MD
+          </h3>
+          <p>View Bio</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="facility-col">
+          <img src="images/img8.jpg" />
+          <h3>
+            Lanre <br />
+            Kalejaiye
+          </h3>
+          <p>View Bio</p>
+        </div>
+
+        <div class="facility-col">
+          <img src="images/img9.jpg" />
+          <h3>
+            Henry <br />
+            Ndukwe
+          </h3>
+          <p>View Bio</p>
+        </div>
+        <div class="facility-col">
+          <img src="images/img10.jpg" />
+          <h3>
+            Kenechi <br />
+            Nnamani
+          </h3>
+          <p>View Bio</p>
+        </div>
+        <div class="facility-col">
+          <img src="images/img13.jpg" />
+          <h3>
+            John <br />
+            Nwosu
+          </h3>
+          <p>View Bio</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="facility-col">
+          <img src="images/img11.jpg" />
+          <h3>
+            Tosin <br />
+            Odesanya
+          </h3>
+          <p>View Bio</p>
+        </div>
+
+        <div class="facility-col">
+          <img src="images/img12.jpg" />
+          <h3>
+            Chike <br />
+            Okpara
+          </h3>
+          <p>View Bio</p>
+        </div>
+        <div class="facility-col">
+          <img src="images/img14.jpg" />
+          <h3>
+            Okemefuna <br />
+            Okpara
+          </h3>
+          <p>View Bio</p>
+        </div>
+        <div class="facility-col">
+          <img src="images/img15.jpg" />
+          <h3>
+            Obinna <br />
+            Ufudo
+          </h3>
+          <p>View Bio</p>
+        </div>
+      </div>
+    </section>
+
+    <!---------- testimonials ---------->
+
+    <!-------- footer ---------->
+
+    <section id="footer1" class="footer">
+      <div class="icons">
+        <a href="mailto:info@naip.com"><i class="fa fa-Envelope fa-2x"></i></a>
+        <a href="https://www.linkedin.com/company/naip-llc/"
+          ><i class="fa fa-linkedin fa-2x"></i
+        ></a>
+        <p>Copyright © 2022 NAIP LLC. All rights reserved.</p>
+      </div>
+    </section>
+
+    <!----JavaScript for toggle menu---->
     <script>
-      AOS.init({
-        offset: 200,
-        duration: 1000,
-      });
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
     </script>
-
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
-    <script>
-      const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-
-    </script>
-    -->
   </body>
 </html>
